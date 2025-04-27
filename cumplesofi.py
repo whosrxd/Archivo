@@ -65,7 +65,7 @@ elif st.session_state.pagina == "Pagina2":
             <p><span class="hidden-word"> Te quiero muchísimo <3 </span></p>
         """, unsafe_allow_html=True)
 
-        st.text("Aún te tengo una última sopresita jiji")
+        st.text("Aún te tengo una última sopresita jiji (aunque no sé si la verás antes que esto o después, ya veremos bonita <3")
 
         st.divider()
 
