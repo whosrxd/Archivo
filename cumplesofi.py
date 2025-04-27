@@ -12,7 +12,6 @@ if st.session_state.pagina == "inicio":
     col1, col2, col3 = st.columns([1, 3, 1])
 
     with col2:
-        st.markdown("<h1 style='text-align: center; color: white;'>Feliz Cumpleaños Sofi Bonitaaaa</h1>", unsafe_allow_html=True)
         st.image("imgs/imagen01.jpeg", caption="17 de diciembre de 2024. Amo hacer FaceTime contigo")
         st.markdown("<h2 style='text-align: center; color: white;'>Te quiero mucho mucho mucho</h2>", unsafe_allow_html=True)
         
