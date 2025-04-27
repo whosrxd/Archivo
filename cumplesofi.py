@@ -33,7 +33,7 @@ elif st.session_state.pagina == "Pagina2":
         st.text("Estoy tan contento de estar para ti en otro añito de tu vida, sé que estos mesesitos han sido algo dificiles por el hecho de estudiar fuera y tener que acostumbrarte, pero creeme cuando te digo que lo estás haciendo muy bien <3")
         st.text("De verdad espero estar para ti y estar presente en los años que vengan porque amo estar contigo.")
 
-        st.image("imgs/imagen02.jpeg", caption = "10 de diciembre de 2024")
+        st.image("imgs/imagen02.jpeg", caption = "10 de diciembre de 2024. Ese día me puse muy nervioso porque jamás había llevado a una niña al salón jiji")
 
         st.text("Quizá esto no sea el gran regalo así que digas guaooo, pero te lo hago con mucho cariño, oki?")
 
@@ -48,7 +48,7 @@ elif st.session_state.pagina == "Pagina2":
                     color: transparent;
                 }
                 .hidden-word:hover::after {
-                    content: '21/03/25'; /* Aquí va la contraseña */
+                    content: '12/07/22'; /* Aquí va la contraseña */
                     color: red; /* Puedes cambiar el color si quieres */
                     font-weight: bold;
                 }
@@ -57,7 +57,7 @@ elif st.session_state.pagina == "Pagina2":
             <p><span class="hidden-word"> Te quiero muchísimo <3 </span></p>
         """, unsafe_allow_html=True)
 
-        st.text("Aún te tengo una última sopresita jiji")
+        st.text("Aún te tengo una última sopresita jiji (aunque no sé si la verás antes que esto o después, ya veremos bonita <3")
 
         st.divider()
 
@@ -73,7 +73,7 @@ elif st.session_state.pagina == "Pagina2":
             st.write("Es una fecha importante jiji")
             st.write("??/??/??")
 
-            if contraseña_fridita == "21/03/25":
+            if contraseña_fridita == "12/07/22":
                 st.session_state.acceso_permitido = True
                 st.rerun()  # Recarga la app para actualizar la interfaz
             elif contraseña_fridita:  # Solo mostrar mensaje si el usuario escribió algo
@@ -101,7 +101,7 @@ elif st.session_state.pagina == "Pagina3":
 
         st.divider()
 
-        st.title("Canciones que ya te pertenecen y una que hasta hace 5 minutos no jiji")
+        st.title("Canciones que ya te pertenecen")
 
         st.subheader("No dejes nunca de pensar en mi")
         st.markdown("""
